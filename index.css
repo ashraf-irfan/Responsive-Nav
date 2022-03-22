@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: gray;
+    display: flex;
+    justify-content: flex-end;     
+}
+.nav a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.nav a:hover{
+    background-color: rgb(45, 95, 95);
+}
+@media screen and (max-width: 600px) {
+   .nav{
+    flex-direction: column;
+    padding: 10px;
+   }
+   .nav a{
+    background-color: indianred;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+}
+   
